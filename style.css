@@ -1,0 +1,35 @@
+:root{
+    --mainColor: #F6F6F6;
+    --mainbackgroundColor: #252525;
+}
+
+
+body{
+    background: var(--mainColor);
+}
+
+.nav-link{
+    font-family: sans-serif;
+   -webkit-text-fill-color: var(--mainColor);
+   font-size: 17px;
+}
+
+.form-control me-2{
+    color: var(--mainColor);
+}
+
+.card{
+    margin: 9px 9px 9px 9px;
+    color: mainColor;
+    
+}
+   /* .offcanvas{
+        background-color: rgba(37, 37, 37, 0.9);
+        backdrop-filter: blur(10px); /*الضبابيه*/ /*
+        -webkit-text-fill-color: #F6F6F6;
+    }  */
+
+/* Add your styling here */
+.news-article {
+    margin-bottom: 20px;
+}
